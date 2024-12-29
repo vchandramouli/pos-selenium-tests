@@ -35,7 +35,7 @@ public class DriverInstance{
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--start-maximized"); 
 			options.addArguments("--disable-notifications"); 
-			options.addArguments("--incognito");
+			// options.addArguments("--incognito");
 		  	DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setBrowserName("chrome");
 			dc.setPlatform(Platform.LINUX);
